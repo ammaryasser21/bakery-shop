@@ -10,7 +10,7 @@ document.addEventListener('scroll', function() {
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 3000) {
-    backToTopButton.style.display = 'block';
+    backToTopButton.style.display = 'grid';
   } else {
     backToTopButton.style.display = 'none';
   }
